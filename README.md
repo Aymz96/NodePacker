@@ -29,16 +29,16 @@ Clone and navigate into the nodePacker directory and follow the below steps.
 ```bash
 $ berks vendor
 ```
-- Configure packer.json to use your AWS details and keys (lines 10, 12, 13, 15, & 20). Also make sure your AWS credentials are saved in your environment variables.
+- You must configure packer.json to be able to use the AWS details and keys. Also make sure your AWS credentials are saved in your environment variables.
+
 - verify the packer.json file.
+
 ```bash
 $ packer validate packer.json
 ```
 - If the above validation passes, run the packer.json file.
+
 ```bash
 $ packer build packer.json
 ```
-- The above will open a connection with AWS and will create an EC2 instance, provision the machine, create an AMI and delete the temporary instance.
-
-## Author
-**Kevin Monteiro** - *DevOps Engineer* - [km-aero](https://github.com/km-aero)
+- This will open a connection in the AWS and allow it to create an EC2 machine.
