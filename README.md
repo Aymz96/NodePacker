@@ -25,7 +25,7 @@ In this repository, there are files which will be working in conjuntons with the
 
 ## How to use
 Clone and navigate into the nodePacker directory and follow the below steps.
-- Run berkshelf to pull the latest mongo cookbook.
+- Run berkshelf to pull the latest nodejs cookbook.
 ```bash
 $ berks vendor
 ```
