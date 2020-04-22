@@ -1,4 +1,4 @@
-# Nodejs Packer
+# Nodejs Packer :computer: :cd: :electric_plug:
 In this repository, there are files which will be working in conjuntons with the NodeCookbookStarterCode. These will be used to create an Amazon Machine Image (AMI) in AWS. It will consist of npm, pm2, nginx and nodejs.
 
 
@@ -42,3 +42,6 @@ $ packer validate packer.json
 $ packer build packer.json
 ```
 - This will open a connection in the AWS and allow it to create an EC2 machine.
+
+☆彡(ノ^ ^)ノ Congratulations ヘ(^ ^ヘ)☆彡
+:v::ok_hand:
