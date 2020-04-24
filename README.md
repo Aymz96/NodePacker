@@ -1,5 +1,6 @@
-# Nodejs Packer :computer: :cd: :electric_plug:
-In this repository, there are files which will be working in conjuntons with the NodeCookbookStarterCode. These will be used to create an Amazon Machine Image (AMI) in AWS. It will consist of npm, pm2, nginx and nodejs.
+# Nodejs Packer :computer: :cd:
+
+This repository contains files which will be working in conjunctions with the NodeCookbookStarterCode. These will be used to create Amazon Machine Image (AMI) in AWS. It will consist of npm, pm2, nginx and nodejs.
 
 
 ## Pre-requisites
@@ -23,13 +24,15 @@ In this repository, there are files which will be working in conjuntons with the
 ## Packer
 - Packer is a tool which is used to create machine images using any configuration management tool. for example in this project we have used Chef and AWS EC2 machines. The images will be configured to the right operating system and softwares needed.
 
-## How to use
-Clone and navigate into the nodePacker directory and follow the below steps.
-- Run berkshelf to pull the latest nodejs cookbook.
+## How to get the Development environment
+Clone and navigate into the nodePacker directory and follow the steps below.
+
+- Run berkshelf to pull the latest nodejs Cookbook.
+
 ```bash
 $ berks vendor
 ```
-- You must configure packer.json to be able to use the AWS details and keys. Also make sure your AWS credentials are saved in your environment variables.
+- Configure packer.json to be able to use the AWS details and keys. Also make sure your AWS credentials are saved in your environment variables.
 
 - verify the packer.json file.
 
@@ -43,5 +46,5 @@ $ packer build packer.json
 ```
 - This will open a connection in the AWS and allow it to create an EC2 machine.
 
-☆彡(ノ^ ^)ノ Congratulations ヘ(^ ^ヘ)☆彡
-:v::ok_hand:
+#### Author
+**Ayman Yousfi** - *Junior DevOps Engineer* - [Aymz96](https://github.com/Aymz96)
